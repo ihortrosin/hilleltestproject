@@ -8,3 +8,4 @@ console.log("Тип даних Array:", typeof [1, 2, 3]);
 console.log("Тип даних Function:", typeof function() {});
 console.log("Тип даних Symbol:", typeof Symbol("symbol"));
 console.log("Тип даних BigInt:", typeof 123n);
+console.log
