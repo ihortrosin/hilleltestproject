@@ -10,6 +10,12 @@ console.log("Тип даних Function:", typeof function() {});
 console.log("Тип даних Symbol:", typeof Symbol("symbol"));
 console.log("Тип даних BigInt:", typeof 123n);
 
+// 3.2
+const line1 = "рядок один";
+const line2 = "рядок два";
+const line3 = "рядок три";
+console.log(`${line3} ${line1} ${line2}`);
+
 // 3.3 вирішив через слайс, хоча є способи красивіши просто нема часу
 let number = 25678;
 let numberStr = number.toString();
