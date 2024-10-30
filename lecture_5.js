@@ -10,9 +10,9 @@
 //     console.log(`${dollars} ${hryvnias}`);
 // }
 
-// -- 5.3 Numbers search
+-- 5.3 Numbers search
 // const N = 99;
-const N = prompt("введіть ціле число")
+const N = parseInt(prompt("введіть ціле число"))
 for (let i = 1; i <= 100; i++) {
     if (N < i * i)
     break;
@@ -20,3 +20,11 @@ for (let i = 1; i <= 100; i++) {
 }
 
 // -- 5.4
+// const N = prompt("Введіть ціле число")
+// for (let i = 1; i <= N; i++) {
+//     if ( N % 1 !== 0)
+//         continue;
+//
+// } else {
+// alert(`${N} — просте число`);
+// }
