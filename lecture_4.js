@@ -71,7 +71,7 @@ helloCustomerName();
 //-- 4.3 Portrait
 
 // -- birth year
-const birthYear = prompt("Введіть свій рік народження:");
+// const birthYear = prompt("Введіть свій рік народження:");
 let birthYearMessage;
 if (birthYear === null || birthYear === '') {
     birthYearMessage = "Шкода, що Ви не захотіли ввести свій рік народження.";
@@ -82,7 +82,7 @@ if (birthYear === null || birthYear === '') {
 }
 
 // -- city
-const city = prompt("В якому місті ви живете?");
+// const city = prompt("В якому місті ви живете?");
 let cityMessage;
 if (city === null || city === '') {
     cityMessage = "Шкода, що Ви не захотіли ввести своє місто.";
@@ -104,7 +104,7 @@ if (city === null || city === '') {
 }
 
 // -- sport
-const sport = prompt("Ваш улюблений вид спорту?");
+// const sport = prompt("Ваш улюблений вид спорту?");
 let sportMessage;
 if (sport === null || sport === '') {
     sportMessage = "Шкода, що Ви не захотіли ввести свій улюблений вид спорту.";
