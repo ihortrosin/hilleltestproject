@@ -20,7 +20,7 @@
 // }
 
 // -- 5.4
-const number = prompt("введіть ціле число");
+const number = parseInt(prompt("введіть ціле число"));
 let isPrime = true;
 for (let i = 2; i < number; i++) {
     if (number % i === 0) {
