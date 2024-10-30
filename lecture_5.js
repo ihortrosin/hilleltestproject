@@ -10,21 +10,22 @@
 //     console.log(`${dollars} ${hryvnias}`);
 // }
 
--- 5.3 Numbers search
-// const N = 99;
-const N = parseInt(prompt("введіть ціле число"))
-for (let i = 1; i <= 100; i++) {
-    if (N < i * i)
-    break;
-    console.log(i);
-}
+// -- 5.3 Numbers search
+// // const N = 99;
+// const N = parseInt(prompt("введіть ціле число"))
+// for (let i = 1; i <= 100; i++) {
+//     if (N < i * i)
+//     break;
+//     console.log(i);
+// }
 
 // -- 5.4
-// const N = prompt("Введіть ціле число")
-// for (let i = 1; i <= N; i++) {
-//     if ( N % 1 !== 0)
-//         continue;
-//
-// } else {
-// alert(`${N} — просте число`);
-// }
+const number = prompt("введіть ціле число");
+let isPrime = true;
+for (let i = 2; i < number; i++) {
+    if (number % i === 0) {
+        isPrime = false;
+        break;
+    }
+}
+console.log(isPrime ? `${number} — просте число` : `${number} — не просте число`);
