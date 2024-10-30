@@ -56,6 +56,7 @@ console.log(numOrStr)
 // //     console.log('OK!')
 // }
 
+
 switch (true) {
     case (numOrStr === null):
         console.log('ви скасували');
