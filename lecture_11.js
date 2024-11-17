@@ -1,3 +1,4 @@
+// - 11.1
 function createPifagorTable() {
     let table = document.createElement("table");
 
