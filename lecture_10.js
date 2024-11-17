@@ -23,23 +23,23 @@
 // console.log(evenNumbers);
 
 // - 10.3
-let contactBook = {
-
-    contacts: [
-        { name: "Іван", phone: "123-456-789", email: "ivan@gmail.com" },
-        { name: "Олена", phone: "987-654-321", email: "olena@gmail.com" }
-    ],
-
-    findContact: function(name) {
-        let contact = this.contacts.find(contact => contact.name === name);
-        return contact || "Контакт не знайдено"; // Повертаємо контакт або повідомлення
-    },
-    addContact: function(name, phone, email) {
-        this.contacts.push({ name, phone, email });
-        console.log("Контакт додано");
-    }
-};
-contactBook.addContact("Ігор", "975-93-55-69", "ihor@gmail.com");
-console.log(contactBook.findContact("Олена")); // Знайдений контакт
-console.log(contactBook.findContact("Ігор")); // Знайдено доданий контакт
-console.log(contactBook.findContact("Михайло")); // не знайдено
+// let contactBook = {
+//
+//     contacts: [
+//         { name: "Іван", phone: "123-456-789", email: "ivan@gmail.com" },
+//         { name: "Олена", phone: "987-654-321", email: "olena@gmail.com" }
+//     ],
+//
+//     findContact: function(name) {
+//         let contact = this.contacts.find(contact => contact.name === name);
+//         return contact || "Контакт не знайдено"; // Повертаємо контакт або повідомлення
+//     },
+//     addContact: function(name, phone, email) {
+//         this.contacts.push({ name, phone, email });
+//         console.log("Контакт додано");
+//     }
+// };
+// contactBook.addContact("Ігор", "975-93-55-69", "ihor@gmail.com");
+// console.log(contactBook.findContact("Олена")); // Знайдений контакт
+// console.log(contactBook.findContact("Ігор")); // Знайдено доданий контакт
+// console.log(contactBook.findContact("Михайло")); // не знайдено
