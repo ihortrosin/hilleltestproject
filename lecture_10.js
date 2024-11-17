@@ -34,7 +34,6 @@ let contactBook = {
         let contact = this.contacts.find(contact => contact.name === name);
         return contact || "Контакт не знайдено"; // Повертаємо контакт або повідомлення
     },
-
     addContact: function(name, phone, email) {
         this.contacts.push({ name, phone, email });
         console.log("Контакт додано");
