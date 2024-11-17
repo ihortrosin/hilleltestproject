@@ -22,12 +22,27 @@
 // console.log(average)
 
 // - 6.3
-function removeElement(array, item) {
-    const index = array.indexOf(item);
-    if (index !== -1) {
-        array.splice(index, 1);
-    }
+// function removeElement(array, item) {
+//     const index = array.indexOf(item);
+//     if (index !== -1) {
+//         array.splice(index, 1);
+//     }
+// }
+// const array = [1, 3, 4, 6, 2, 5, 7];
+// removeElement(array, 4);
+// console.log(array);
+
+// - 6.4
+function sum() {
+    let total = 0;
+    return function (num) {
+        total = total + num;
+        return total;
+    };
 }
-const array = [1, 3, 4, 6, 2, 5, 7];
-removeElement(array, 4);
-console.log(array);
+const add = sum();
+console.log(add(4));
+console.log(add(6));
+console.log(add(10));
+console.log(add(7));
+
