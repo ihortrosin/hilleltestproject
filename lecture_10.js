@@ -13,5 +13,4 @@ let user = {
         console.log(`Email: ${this.email}`);
     }
 };
-
 user.showInfo();
