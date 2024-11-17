@@ -14,5 +14,4 @@ let user = {
     }
 };
 
-
 user.showInfo();
