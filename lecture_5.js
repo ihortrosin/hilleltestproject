@@ -20,12 +20,12 @@
 // }
 
 // -- 5.4
-const number = parseInt(prompt("введіть ціле число"));
-let isPrime = true;
-for (let i = 2; i < number; i++) {
-    if (number % i === 0) {
-        isPrime = false;
-        break;
-    }
-}
-console.log(isPrime ? `${number} — просте число` : `${number} — не просте число`);
+// const number = parseInt(prompt("введіть ціле число"));
+// let isPrime = true;
+// for (let i = 2; i < number; i++) {
+//     if (number % i === 0) {
+//         isPrime = false;
+//         break;
+//     }
+// }
+// console.log(isPrime ? `${number} — просте число` : `${number} — не просте число`);
